@@ -276,10 +276,21 @@ body {
   font-weight: bold;
   transition: 0.4s;
 }
-
 #navbar a:hover {
   background-color: #ddd;
   color: black;
+  cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
+}
+
+#navbar a.active:hover {
+  background-color: #73b9ff;
+  color: black;
+  cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
+}
+
+#navbar a.disabled:hover {
+  background-color: #9c0000;
+  color: white;
   cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
 }
 
@@ -288,6 +299,15 @@ body {
   color: white;
   cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
 }
+
+#navbar a.disabled {
+  background-color: #660303;
+  color: white;
+  cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
+}
+
+
+
 
 #navbar-right {
   float: right;
@@ -317,8 +337,8 @@ body {
     <a class="active" href="/">Kezdőlap</a>
 	     <a href="/fes/">Filmek és sorozatok</a>
     <a href="/filmertekeles/">Film értékelés</a>
-        <a href="#about">Rólunk</a>
-    <a href="#contact">Kapcsolat</a>
+        <a class="disabled" href="/csomagok/">Csomagok</a>
+    <a  href="#contact">Kapcsolat</a>
   </div>
 </div>
     
