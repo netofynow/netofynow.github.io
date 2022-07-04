@@ -1,8 +1,8 @@
-<html lang="hu"><head>
+<html lang="hu"> 
 
    
      
-         <title>Kezdőlap - Netofy</title>
+         <title>Film és sorozatok - Netofy</title>
 	<meta data-n-head="1" data-hid="og:type" name="og:type" content="website">
 	<meta data-n-head="1" data-hid="og:site_name" name="og:site_name" content="Netofy">
 	    <meta charset="UTF-8">
@@ -22,7 +22,7 @@
          <link rel="stylesheet" href="style.css">
        <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script async="" src="https://buttons-config.sharethis.com/js/61d960ee8b2e610019370d7c.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +35,8 @@
 	
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=61d960ee8b2e610019370d7c&amp;product=inline-share-buttons" async="async"></script>
 	
-	
+	<div class="scroller">
+
 	
   <style>
   body {
@@ -232,7 +233,15 @@
   </style>
 </head>
 <body id="netofy" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+        
+
+
+ <!-- <div style="margin-top:110px;padding:15px 15px 2500px;font-size:30px"> -->
+
 <style>
+
+
 * {box-sizing: border-box;}
 
 body { 
@@ -243,7 +252,7 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #f1f1f1;
-  padding: 90px 10px;
+  padding: 20px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -267,10 +276,21 @@ body {
   font-weight: bold;
   transition: 0.4s;
 }
-
 #navbar a:hover {
   background-color: #ddd;
   color: black;
+  cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
+}
+
+#navbar a.active:hover {
+  background-color: #73b9ff;
+  color: black;
+  cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
+}
+
+#navbar a.disabled:hover {
+  background-color: #9c0000;
+  color: white;
   cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
 }
 
@@ -280,13 +300,22 @@ body {
   cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
 }
 
+#navbar a.disabled {
+  background-color: #660303;
+  color: white;
+  cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
+}
+
+
+
+
 #navbar-right {
   float: right;
 }
 
 @media screen and (max-width: 580px) {
   #navbar {
-    padding: 20px 10px !important;
+    padding: 20px 5px !important;
   }
   #navbar a {
     float: none;
@@ -297,48 +326,21 @@ body {
     float: none;
   }
 }
+
+
 </style>
-
-
-
-        
+ <h1>.</h1><h1> </h1><h1>.</h1><h1> </h1><h1>.</h1><h1>
 <div id="navbar">
 <a href="/" id="logo" src="https://avatars.githubusercontent.com/u/87304347?v=4"><img src="https://avatars.githubusercontent.com/u/87304347?v=4" alt="netofy" widht="50" height="50"></a>
   <a href="/" id="logo">Netofy</a>
   <div id="navbar-right">
     <a class="active" href="/">Kezdőlap</a>
-	     <a href="/fes/">Filmek és sorozatok</a>
-    <a href="/filmajanlas/">Film ajánlás</a>
-        <a href="#about">Rólunk</a>
-    <a href="#contact">Kapcsolat</a>
+	     <a class="disabled" >Filmek és sorozatok | Itt vagy</a>
+    <a href="/filmertekeles/">Film értékelés</a>
+        <a href="/csomagok/">Csomagok</a>
+    <a  href="#contact">Kapcsolat</a>
   </div>
 </div>
-<h1>.</h1><h1>
-</h1><h1>.</h1><h1>
-</h1><h1>.</h1><h1>
-</h1><h1></h1><h1>
-
- <!-- <div style="margin-top:110px;padding:15px 15px 2500px;font-size:30px"> -->
- <div>
-
-<script>
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    document.getElementById("navbar").style.padding = "10px 10px";
-    document.getElementById("logo").style.fontSize = "5px";
-  } else {
-    document.getElementById("navbar").style.padding = "10px 10px";
-    document.getElementById("logo").style.fontSize = "5px";
-  }
-}
-</script>
-     
-
-
-      
     
   
 
@@ -346,7 +348,7 @@ function scrollFunction() {
 <div class="jumbotron text-center">
  <img src="https://avatars.githubusercontent.com/u/87304347?v=4" alt="netofy" widht="100" height="100"> <h1></h1> 
   <p>Filmezni jó. Legyen jó otthon is!</p> 
-	<button class="btn btn-danger" disabled><spawn>Discord szerver</span></button>
+	<button class="btn btn-danger" disabled=""><spawn>Discord szerver</spawn></button>
 </div>
 <style>
 .alert-link {
@@ -367,31 +369,240 @@ cursor: alias;}
   </div>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>Rólunk</h2><br>
-      <h4>Ezt a projektet 2021-ben kezdtem, "Filmek és sorozatok,, volt a neve. Azóta is egyedül csinálom.</h4><br>
-      <p></p>    </div>
-     </div>
-       </div>  </div>
-       </div>
-     
-     
+
+     <strong><h6>
+<p>Beszt filmek evör</p><p>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Keress parancsra névből/benne lévő adatból" title="Írj be parancsot!">
 
 
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">Kapcsolatok</h2>
+</p><ul id="myUL">
 
-  <div class="row">
-    <div class="col-sm-5">
-      <p><span class="glyphicon glyphicon-map-marker"></span> Budapest, HU</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Itt a Discordom tessék vigyed: TutiCraft#6216</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> fejlesztés alatt</p>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
+
+
+
+
+
+
+<!-- Rém -->
+<li>
+<a href="/sorozatok/Rick_es_Morty/">
+
+<div class="card"  >
+<div class="card-body">
+ <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAe8TTP-orp9mtoPq0bh3FehQiFrKwShbL5s_rl1uVD4xayuNK"  alt="Rick és Morty" width="100" height="100">
+     <h3 class="card-title">Rick és Morty</h3>
+        <p class="card-mi">Sorozat</p>
+      <h4 class="card-subtitle">Vicces, humoros</h4>
+          <p class="card-pg">PG 14 | 14 éves kortól ajánlott</p>
+    <p class="card-resz">5 évados</p>
+    <u class="card-more">Többet a dobozra kattintva láthatsz</u>
+  </div>
+</div>   
+ 
+
+</li></a>
+<!-- Rém Vége -->
+
+  <div class="styles and scripts c:">
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<div class="scripts and styles">
+	 <script>
+let url = document.URL;
+document.getElementById("demo").innerHTML = url;
+</script>
+<style>
+
+ 
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }  
+  
+   h4tolt {
+    font-size: 30px;
+    line-height: 1.375em;
+    color:  #008CBA;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }  
+ 
+.btn {
+background-color: ;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+    padding: 5px 12px;
+    font-color: #f1f1f1;
+}
+.btn-download {
+  background-color: #white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+	.
+.btn-download {
+cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 12, auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+</style>
+
+
+
+<style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #fff;
+  overflow: shown; /* Hide scrollbars */    
+}
+	 
+	  .card-image-top {
+      height: 10px;
+      width: 10px;
+      }
+      
+	.card-title	{
+color: #fa7c28;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+	.card-mi	{
+color: #cf6119;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+	.card-resz	{
+color: #00aeff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-up: 10px;
+}
+
+
+	.card-pg {
+color: #e68517;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    under-line: 10px;
+}
+.card-nezd {
+color: #26949e;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+    
+    }
+
+
+.card-body {
+background-color: #dedcd5;
+}
+
+.card {
+width: 50rem;
+margin-bottom: 0px;
+}
+
+
+										   
+  h1 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  
+  </style>
+  
+  
+
+<style>
+
+* {
+  box-sizing: border-box;
+
+}
+
+#myInput {
+  background-image: url('https://w3schools.com/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+</style>
+
+
+</div>
+
  
 
 
@@ -415,34 +626,34 @@ cursor: alias;}
 
    
 
- <h1>Megosztás</h1><h1>
+ <a><h1>Megosztás</h1></a><h1>
     <!-- Facebook -->
-    <a href="http://www.facebook.com/sharer.php?u=https://foxybothu.github.io" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook">
-    </a>
+    </a><a href="http://www.facebook.com/sharer.php?u=https://netofynow.github.io" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook">  </a>
+  
     
 
     <!-- LinkedIn -->
-    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://foxybothu.github.io" target="_blank">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://netofynow.github.io" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn">
     </a>
     
     
     <!-- Reddit -->
-    <a href="http://reddit.com/submit?url=https://foxybothu.github.io&amp;title=Foxy Bot" target="_blank">
+    <a href="http://reddit.com/submit?url=https://netofynow.github.io&amp;title=Netofy" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit">
     </a>
     
   
      
     <!-- Twitter -->
-    <a href="https://twitter.com/share?url=https://foxybothu.github.io;hashtags=Foxy,Bot,Hungary,Magyar,Jó" target="_blank">
+    <a href="https://twitter.com/share?url=https://netofynow.github.io;hashtags=Netofy,Film,Sorozatok" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter">
     </a>
     
     
        <!-- Snap -->
-    <a href="https://www.snapchat.com/scan?attachmentUrl=https://foxybothu.github.io%2F&amp;utm_source=xd" target="_blank">
+    <a href="https://www.snapchat.com/scan?attachmentUrl=https://netofynow.github.io%2F&amp;utm_source=xd" target="_blank">
 <style>
 img {
   border-radius: 200%;
@@ -451,7 +662,7 @@ img {
 
        
 				<img class="img-circle" src="https://images.ctfassets.net/adclj4ijug4e/5LO0pW3N2SNIQTN3DPr9zZ/ef2d3f804ec3719a3ac0d43ab3732546/social-lg.jpeg" alt="snapchat" style="width:66px;height:66px"> 
-			</a></h1></li></ul></div><a href="https://www.snapchat.com/scan?attachmentUrl=https://foxybothu.github.io%2F&amp;utm_source=xd" target="_blank">
+			</a></h1></ul></div><a href="https://www.snapchat.com/scan?attachmentUrl=https://netofynow.github.io%2F&amp;utm_source=xd" target="_blank">
     </a>
 
 
@@ -509,27 +720,31 @@ cursor: url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png) 1 
 
 
 
-</h1><h1>Hasznosnak találod?</h1>
+</div></div></div></div></div></h1><h1>Hasznosnak találod?</h1>
 <h4>És megtartanád más időkre is?</h4>
 <h4tolt>Töltsd le!</h4tolt>
 <p></p><p>
 <a type="button" class="btn btn-download" href="" id="demo" ""="" style="cursor:url(https://cdn.custom-cursor.com/db/cursor/32/Spider-Man_Pointing_atSpider-ManMemeCursor.png) 1 12, auto;" download="">Letöltés</a> 
-	  
+	  <h5><h5>
+	  <h4>Megjegyzések:<h4>
+
+<h6>Cursor képek: <a href="https://custom-cursor.com/">katt</a></h6>
 	  
 </p><footer class="container-fluid text-center">
   <a href="#" title="Föl">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a> 
-    </div>
-  </div>
-</div>
+  
+
+  
+
  
-    </div>
-  </div>
-  </div>
+    
+  
+  
      
 </footer>
-  <p>Foxy bot 2020-<script>document.write(new Date().getFullYear())</script> (By: TutiCraft)</p>
+  <p>Netofy© 2020-<script>document.write(new Date().getFullYear())</script> (By: TutiCraft)</p>
 
 <script>
 $(document).ready(function(){
@@ -568,4 +783,4 @@ $(document).ready(function(){
 })
 </script>
 
-
+</body></html>
